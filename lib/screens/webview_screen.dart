@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:matches/consts/app_colors.dart';
 import 'package:matches/widgets/loading_state_widget.dart';
 import 'package:webview_flutter/webview_flutter.dart';
 import 'package:webview_flutter_android/webview_flutter_android.dart';
@@ -32,6 +33,7 @@ class _WebViewScreenState extends State<WebViewScreen> {
         WebViewController.fromPlatformCreationParams(params);
 
     controller
+    ..setBackgroundColor(AppColors.backgroundColor)
       ..setJavaScriptMode(JavaScriptMode.unrestricted)
       ..setNavigationDelegate(
         NavigationDelegate(
