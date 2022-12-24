@@ -22,10 +22,10 @@ class MatchesApp extends StatelessWidget {
             scaffoldBackgroundColor: AppColors.backgroundColor,
             fontFamily: Constants.appFontFamily,
             appBarTheme: AppBarTheme(
-              elevation: 0,
-              iconTheme: IconThemeData(color: Colors.black),
-              color: AppColors.secondaryColor,
-            ),
+                elevation: 0,
+                iconTheme: IconThemeData(color: Colors.black),
+                color: AppColors.secondaryColor,
+                centerTitle: true),
             textTheme: TextTheme(
                 labelSmall: TextStyle(
                     color: AppColors.accentColor,
