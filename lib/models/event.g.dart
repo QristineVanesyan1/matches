@@ -1,0 +1,55 @@
+// GENERATED CODE - DO NOT MODIFY BY HAND
+
+part of 'event.dart';
+
+// **************************************************************************
+// JsonSerializableGenerator
+// **************************************************************************
+
+Event _$EventFromJson(Map<String, dynamic> json) => Event(
+      json['idEvent'] as String?,
+      json['idSoccerXML'] as String?,
+      json['idAPIfootball'] as String?,
+      json['strEvent'] as String?,
+      json['strEventAlternate'] as String?,
+      json['strFilename'] as String?,
+      json['strSport'] as String?,
+      json['idLeague'] as String?,
+      json['strLeague'] as String?,
+      json['strSeason'] as String?,
+      json['strDescriptionEN'] as String?,
+      json['strHomeTeam'] as String?,
+      json['strAwayTeam'] as String?,
+      json['intHomeScore'] as String?,
+      json['intRound'] as String?,
+      json['intAwayScore'] as String?,
+      json['intSpectators'] as String?,
+      json['strOfficial'] as String?,
+      json['strTimestamp'] as String?,
+      json['dateEvent'] as String?,
+      json['dateEventLocal'] as String?,
+      json['strTime'] as String?,
+      json['strTimeLocal'] as String?,
+      json['strTVStation'] as String?,
+      json['idHomeTeam'] as String?,
+      json['idAwayTeam'] as String?,
+      json['intScore'] as String?,
+      json['intScoreVotes'] as String?,
+      json['strResult'] as String?,
+      json['strVenue'] as String?,
+      json['strCountry'] as String?,
+      json['strCity'] as String?,
+      json['strPoster'] as String?,
+      json['strSquare'] as String?,
+      json['strFanart'] as String?,
+      json['strThumb'] as String?,
+      json['strBanner'] as String?,
+      json['strMap'] as String?,
+      json['strTweet1'] as String?,
+      json['strTweet2'] as String?,
+      json['strTweet3'] as String?,
+      json['strVideo'] as String?,
+      json['strStatus'] as String?,
+      json['strPostponed'] as String?,
+      json['strLocked'] as String?,
+    );

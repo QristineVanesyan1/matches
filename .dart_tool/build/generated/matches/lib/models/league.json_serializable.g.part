@@ -1,0 +1,10 @@
+// **************************************************************************
+// JsonSerializableGenerator
+// **************************************************************************
+
+League _$LeagueFromJson(Map<String, dynamic> json) => League(
+      json['idLeague'] as String?,
+      json['strLeague'] as String?,
+      json['strSport'] as String?,
+      json['strLeagueAlternate'] as String?,
+    );
